@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.select {|w| w == word}
+  word.join(" ")
 end
 end
