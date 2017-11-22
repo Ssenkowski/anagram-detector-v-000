@@ -9,6 +9,6 @@ end
 
 def match(array)
 
-  array.keep_if {|str|   binding.pry}
+  array.keep_if {|str| str == self}
 end
 end
