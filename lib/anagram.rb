@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.keep_if {|w| }
+  word.keep_if {|w| word == w }
 end
 end
