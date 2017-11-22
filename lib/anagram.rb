@@ -7,7 +7,8 @@ def initialize(word)
 end
 
 def match(word)
-  if word == word 
+  if word == word
     word.keep_if
+  end
 end
 end
