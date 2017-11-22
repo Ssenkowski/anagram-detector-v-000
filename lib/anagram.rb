@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.select
+  word.select {|w| w == w}
 end
 end
