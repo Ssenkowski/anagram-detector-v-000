@@ -7,6 +7,7 @@ def initialize(word)
 end
 
 def match(word)
-  word == words
+  word = words
+  word
 end
 end
