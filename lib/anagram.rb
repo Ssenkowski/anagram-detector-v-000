@@ -6,7 +6,7 @@ def initialize(word)
   @word = word
 end
 
-def match(word)
+def match(string)
   word.each_slice.to_a
 
   end
