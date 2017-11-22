@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(array)
-  array
-  binding.pry
+
+  array.keep_if {|str|   binding.pry}
 end
 end
