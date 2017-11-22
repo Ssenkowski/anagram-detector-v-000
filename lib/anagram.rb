@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.eql?
+  word.keep_if {|w| 
 end
 end
