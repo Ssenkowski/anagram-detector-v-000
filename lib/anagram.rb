@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.uniq
+  word.find_all
 end
 end
