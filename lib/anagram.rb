@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.split(" ")
+  word.join(" ")
 end
 end
