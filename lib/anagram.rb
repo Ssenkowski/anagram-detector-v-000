@@ -6,8 +6,8 @@ def initialize(word)
   @word = word
 end
 
-def match(string)
-  word.each_slice.to_a
+def match(array)
+  word
 
   end
 end
