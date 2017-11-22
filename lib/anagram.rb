@@ -7,6 +7,7 @@ def initialize(word)
 end
 
 def match(word)
-  word.map.keep_if {|w| w == word}
+  word.map do |w|
+  end
 end
 end
