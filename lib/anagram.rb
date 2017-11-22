@@ -7,7 +7,7 @@ def initialize(word)
 end
 
 def match(word)
-  word.each_slice do 
+  word.each_slice.to_a
 
   end
 end
