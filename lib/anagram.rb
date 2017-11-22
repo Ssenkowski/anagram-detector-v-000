@@ -7,8 +7,8 @@ def initialize(word)
 end
 
 def match(word)
-  word.each.split(",") do
-    
+  word.each_slice do 
+
   end
 end
 end
