@@ -1,4 +1,5 @@
-# Your code goes here!
+require 'pry'
+
 class Anagram
   attr_reader :words
 
@@ -7,8 +8,8 @@ def initialize(word)
 end
 
 def match(array)
-  word
-
+  array
+  binding.pry
   end
 end
 end
