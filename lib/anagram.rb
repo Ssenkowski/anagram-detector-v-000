@@ -7,6 +7,8 @@ def initialize(word)
 end
 
 def match(word)
-  words = word.split(",")
+  word.each.split(",") do
+    
+  end
 end
 end
