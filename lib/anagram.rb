@@ -7,6 +7,6 @@ def initialize(word)
 end
 
 def match(word)
-  word.keep_if {|w| w.include?("#{word}")}
+  word.eql?
 end
 end
