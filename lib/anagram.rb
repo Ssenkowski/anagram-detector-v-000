@@ -7,8 +7,8 @@ def initialize(word)
 end
 
 def match(word)
-  word.each do |words|
-
+  words = word.split(",")
+    
   end
 end
 end
