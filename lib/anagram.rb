@@ -1,7 +1,7 @@
 require 'pry'
 
 class Anagram
-  attr_reader :words
+  attr_reader :word
 
 def initialize(word)
   @word = word
