@@ -10,6 +10,5 @@ end
 def match(array)
   array
   binding.pry
-  end
 end
 end
