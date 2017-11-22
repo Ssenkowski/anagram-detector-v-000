@@ -9,6 +9,6 @@ end
 
 def match(array)
 
-  array.keep_if {|str| word.split('').sort str.split('') binding.pry}
+  array.keep_if {|str| word.split('').sort str.split('')}
 end
 end
