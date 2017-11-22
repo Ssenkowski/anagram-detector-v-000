@@ -8,6 +8,5 @@ end
 
 def match(word)
   word.keep_if {|w| w == word}
-  end
 end
 end
